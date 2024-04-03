@@ -1,0 +1,63 @@
+
+
+.logo-border {
+
+  width: 100px; /* Kohandage konteineri laiust vastavalt vajadusele */
+  height: 100px; /* Kohandage konteineri kõrgust vastavalt vajadusele */
+}
+
+
+.main {
+  background-image: url(Pildid/Lapsed_toas_suurendatud.jpeg);
+  height: 70vh;
+  padding: 0%;
+  background-attachment: fixed;
+}
+
+#pealkiri {
+  font-size: 7em;
+}
+
+
+
+section {
+  min-height: 60vh;
+  max-height: max-content;
+}
+
+
+
+
+.accordion {
+  margin: auto;
+}
+
+#teenused-pealkiri {
+  padding-top: 5%;
+}
+
+.accordion-item {
+  margin-bottom: 2%;
+}
+
+.esimene-teenus {
+  margin-left: 0%;
+  margin-right: 10%;
+}
+.teine-teenus {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.kolmas-teenus {
+  margin-left: 10%;
+}
+
+.tag {
+  opacity: 0.5;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
