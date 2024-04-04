@@ -25,15 +25,8 @@ section {
   max-height: max-content;
 }
 
-
-
-
-.accordion {
-  margin: auto;
-}
-
 #teenused-pealkiri {
-  padding-top: 5%;
+  padding-bottom: 8%;
 }
 
 .accordion-item {
@@ -60,4 +53,39 @@ section {
 .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
+}
+
+
+
+
+.carousel-item .d-flex {
+  width: 80%;
+  margin: auto;
+}
+.carousel-item .d-flex .text {
+  margin: auto;
+  padding: 1%;
+}
+
+.carousel img {
+  height: 400px;
+  width: 400px;
+}
+
+#about svg {
+  width: 500px;
+  height: 500px;
+}
+
+#about p {
+  font-size: 1.5em;
+  width: 60%;
+}
+#about > .container > .container {
+  display: flex;
+  align-items: center;
+
+}
+.Oskari-pilt {
+  background-image: url(Pildid/Oskar_töötamas_lõigatud.jpeg);
 }
