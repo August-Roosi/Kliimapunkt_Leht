@@ -6,12 +6,12 @@
   height: 100px; /* Kohandage konteineri kõrgust vastavalt vajadusele */
 }
 
-
 .main {
   background-image: url(Pildid/Lapsed_toas_suurendatud.jpeg);
   height: 70vh;
   padding: 0%;
   background-attachment: fixed;
+  margin-top: 2.5%;
 }
 
 body {
@@ -21,8 +21,6 @@ body {
 #pealkiri {
   font-size: 7em;
 }
-
-
 
 section {
   min-height: 60vh;
